@@ -24,8 +24,6 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'src'), // дериктория с файлами для сервера
         },
-        compress: true,
-        open: true, // авто-открытие вкладки с сервером
         hot: true, // live-reload
         port: 3000, // для точного порта
     },
